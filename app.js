@@ -13,8 +13,7 @@ import Accounts from './components/Account';
 import Index from './components/Index';
 import createBrowserHistory from 'history/createBrowserHistory';
 import AccountDetail from './components/AccountDetail';
-const history = createBrowserHistory();
-console.log(Router);
+
 class App extends React.Component {
   render(){
       return (
