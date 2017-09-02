@@ -1,5 +1,5 @@
 import React from 'react';
-import 'whatwg-fetch';
+
 class AccountDetail extends React.Component {
     state={id:333}
     componentDidMount(){
@@ -8,11 +8,6 @@ class AccountDetail extends React.Component {
         console.log(id);
         var self = this;
         this.setState({id:id});
-        // fetch('http://www.gailougaoshou.com/intelvest/api/user/8018')
-        //   .then((response)=>response.json())
-        //   .then((jsonbody)=>{
-        //     console.log(jsonbody);
-        //   })
    }
     render(){
         // console.log(this.state);
